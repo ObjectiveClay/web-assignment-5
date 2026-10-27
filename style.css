@@ -1,0 +1,35 @@
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.hover-red:hover {
+    color: #dc3545 !important;
+}
+
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: #6c757d;
+    background-color: #f8f9fa;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.task-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
